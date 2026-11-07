@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* Models.swift */; };
+		A10000000000000000000002 /* VaultCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* VaultCrypto.swift */; };
+		A10000000000000000000003 /* VaultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* VaultStore.swift */; };
+		A10000000000000000000004 /* BitwardenImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* BitwardenImporter.swift */; };
+		A10000000000000000000005 /* WebDAVClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* WebDAVClient.swift */; };
+		A10000000000000000000006 /* PasswordTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* PasswordTools.swift */; };
+		A10000000000000000000007 /* UniPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* UniPassApp.swift */; };
+		A10000000000000000000008 /* VaultViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* VaultViews.swift */; };
+		A10000000000000000000009 /* EntryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* EntryViews.swift */; };
+		A1000000000000000000000A /* SettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* SettingsViews.swift */; };
+		A1000000000000000000000B /* SyncCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* SyncCoordinator.swift */; };
+		A1000000000000000000000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* Assets.xcassets */; };
+		A1000000000000000000000D /* UniPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* UniPassTests.swift */; };
+		A1000000000000000000000E /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* CustomFont.swift */; };
+		A1000000000000000000000F /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* Fonts */; };
+		A10000000000000000000010 /* CustomFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* CustomFontTests.swift */; };
+		A10000000000000000000011 /* S3Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* S3Client.swift */; };
+		A10000000000000000000012 /* S3ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* S3ClientTests.swift */; };
+		A10000000000000000000013 /* VaultSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* VaultSyncTests.swift */; };
+		A10000000000000000000014 /* SyncAttachmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* SyncAttachmentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50000000000000000000001;
+			remoteInfo = uniPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* VaultCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultCrypto.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* VaultStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* BitwardenImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitwardenImporter.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* WebDAVClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDAVClient.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* PasswordTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTools.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* UniPassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniPassApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* VaultViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultViews.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* EntryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViews.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* SettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViews.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* SyncCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncCoordinator.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000000000000000000000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2000000000000000000000E /* UniPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniPassTests.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* uniPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uniPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000010 /* uniPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uniPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000011 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		A20000000000000000000013 /* CustomFontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* S3Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3Client.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* S3ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3ClientTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* VaultSyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultSyncTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* SyncAttachmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncAttachmentTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A70000000000000000000002 /* uniPass */,
+				A70000000000000000000003 /* uniPassTests */,
+				A70000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A70000000000000000000002 /* uniPass */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000007 /* UniPassApp.swift */,
+				A20000000000000000000011 /* CustomFont.swift */,
+				A20000000000000000000012 /* Fonts */,
+				A20000000000000000000001 /* Models.swift */,
+				A20000000000000000000002 /* VaultCrypto.swift */,
+				A20000000000000000000003 /* VaultStore.swift */,
+				A20000000000000000000004 /* BitwardenImporter.swift */,
+				A20000000000000000000005 /* WebDAVClient.swift */,
+				A20000000000000000000014 /* S3Client.swift */,
+				A20000000000000000000006 /* PasswordTools.swift */,
+				A2000000000000000000000B /* SyncCoordinator.swift */,
+				A20000000000000000000008 /* VaultViews.swift */,
+				A20000000000000000000009 /* EntryViews.swift */,
+				A2000000000000000000000A /* SettingsViews.swift */,
+				A2000000000000000000000C /* Assets.xcassets */,
+				A2000000000000000000000D /* Info.plist */,
+			);
+			path = uniPass;
+			sourceTree = "<group>";
+		};
+		A70000000000000000000003 /* uniPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000E /* UniPassTests.swift */,
+				A20000000000000000000013 /* CustomFontTests.swift */,
+				A20000000000000000000015 /* S3ClientTests.swift */,
+				A20000000000000000000016 /* VaultSyncTests.swift */,
+				A20000000000000000000017 /* SyncAttachmentTests.swift */,
+			);
+			path = uniPassTests;
+			sourceTree = "<group>";
+		};
+		A70000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000F /* uniPass.app */,
+				A20000000000000000000010 /* uniPassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* uniPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0000000000000000000002 /* Build configuration list for PBXNativeTarget "uniPass" */;
+			buildPhases = (
+				AD0000000000000000000001 /* Check Custom Fonts */,
+				A80000000000000000000001 /* Sources */,
+				A40000000000000000000001 /* Frameworks */,
+				A90000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uniPass;
+			productName = uniPass;
+			productReference = A2000000000000000000000F /* uniPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50000000000000000000002 /* uniPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0000000000000000000003 /* Build configuration list for PBXNativeTarget "uniPassTests" */;
+			buildPhases = (
+				A80000000000000000000002 /* Sources */,
+				A40000000000000000000002 /* Frameworks */,
+				A90000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = uniPassTests;
+			productName = uniPassTests;
+			productReference = A20000000000000000000010 /* uniPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 15.2;
+						ProvisioningStyle = Automatic;
+					};
+					A50000000000000000000002 = {
+						CreatedOnToolsVersion = 15.2;
+						DevelopmentTeam = YW272H4FY5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A50000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = AC0000000000000000000001 /* Build configuration list for PBXProject "uniPass" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A70000000000000000000001;
+			productRefGroup = A70000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* uniPass */,
+				A50000000000000000000002 /* uniPassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000C /* Assets.xcassets in Resources */,
+				A1000000000000000000000F /* Fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD0000000000000000000001 /* Check Custom Fonts */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/Scripts/CustomFontInputs.xcfilelist",
+			);
+			inputPaths = (
+				"$(SRCROOT)/Scripts/check-custom-fonts.py",
+				"$(SRCROOT)/uniPass",
+			);
+			name = "Check Custom Fonts";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/python3 \"${SRCROOT}/Scripts/check-custom-fonts.py\" \"${SRCROOT}/uniPass\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* Models.swift in Sources */,
+				A10000000000000000000002 /* VaultCrypto.swift in Sources */,
+				A10000000000000000000003 /* VaultStore.swift in Sources */,
+				A10000000000000000000004 /* BitwardenImporter.swift in Sources */,
+				A10000000000000000000005 /* WebDAVClient.swift in Sources */,
+				A10000000000000000000011 /* S3Client.swift in Sources */,
+				A10000000000000000000006 /* PasswordTools.swift in Sources */,
+				A10000000000000000000007 /* UniPassApp.swift in Sources */,
+				A1000000000000000000000E /* CustomFont.swift in Sources */,
+				A10000000000000000000008 /* VaultViews.swift in Sources */,
+				A10000000000000000000009 /* EntryViews.swift in Sources */,
+				A1000000000000000000000A /* SettingsViews.swift in Sources */,
+				A1000000000000000000000B /* SyncCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000D /* UniPassTests.swift in Sources */,
+				A10000000000000000000010 /* CustomFontTests.swift in Sources */,
+				A10000000000000000000012 /* S3ClientTests.swift in Sources */,
+				A10000000000000000000013 /* VaultSyncTests.swift in Sources */,
+				A10000000000000000000014 /* SyncAttachmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA0000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50000000000000000000001 /* uniPass */;
+			targetProxy = A30000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YW272H4FY5;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = uniPass/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = uniPass;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unipass.unipass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YW272H4FY5;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = uniPass/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = uniPass;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unipass.unipass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB0000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YW272H4FY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unipass.unipass.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uniPass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/uniPass";
+				TEST_TARGET_NAME = uniPass;
+			};
+			name = Debug;
+		};
+		AB0000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YW272H4FY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unipass.unipass.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uniPass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/uniPass";
+				TEST_TARGET_NAME = uniPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0000000000000000000001 /* Build configuration list for PBXProject "uniPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0000000000000000000001 /* Debug */,
+				AB0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0000000000000000000002 /* Build configuration list for PBXNativeTarget "uniPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0000000000000000000003 /* Debug */,
+				AB0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0000000000000000000003 /* Build configuration list for PBXNativeTarget "uniPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0000000000000000000005 /* Debug */,
+				AB0000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}

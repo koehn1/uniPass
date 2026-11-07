@@ -1,0 +1,50 @@
+# Local reference material and downloaded sources
+/other/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode per-user state (keep shared schemes and project configuration)
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Build and test output
+.build/
+.build-mac/
+.build-device/
+build/
+DerivedData/
+*.xcresult/
+*.xcarchive/
+*.ipa
+*.dSYM/
+*.dSYM.zip
+*.hmap
+*.LinkFileList
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+
+# Local signing credentials
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Never commit local vaults or password-manager exports
+*.unipass
+*.unipassvault
+*.vault
+*.vault.json
+*.enc
+bitwarden_export*.json
+bitwarden_export*.csv

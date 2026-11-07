@@ -1,0 +1,13 @@
+$(SRCROOT)/uniPass/BitwardenImporter.swift
+$(SRCROOT)/uniPass/CustomFont.swift
+$(SRCROOT)/uniPass/EntryViews.swift
+$(SRCROOT)/uniPass/Models.swift
+$(SRCROOT)/uniPass/PasswordTools.swift
+$(SRCROOT)/uniPass/UniPassApp.swift
+$(SRCROOT)/uniPass/S3Client.swift
+$(SRCROOT)/uniPass/SettingsViews.swift
+$(SRCROOT)/uniPass/SyncCoordinator.swift
+$(SRCROOT)/uniPass/VaultCrypto.swift
+$(SRCROOT)/uniPass/VaultStore.swift
+$(SRCROOT)/uniPass/VaultViews.swift
+$(SRCROOT)/uniPass/WebDAVClient.swift
